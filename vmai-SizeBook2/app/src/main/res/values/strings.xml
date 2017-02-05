@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">vmai-SizeBook</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+</resources>

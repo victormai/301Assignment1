@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name                                (required)"
+        android:ems="10"
+        android:id="@+id/editName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Date                                  (yyyy-mm-dd)"
+        android:ems="10"
+        android:id="@+id/Date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Neck Circumference (Inches)"
+        android:ems="10"
+        android:id="@+id/editNeck"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bust Circumference (Inches)"
+        android:ems="10"
+        android:id="@+id/editBust"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chest Circumference (Inches)"
+        android:ems="10"
+        android:id="@+id/editChest"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Waist Circumference (Inches)"
+        android:ems="10"
+        android:id="@+id/editWaist"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hip Circumference (Inches)"
+        android:ems="10"
+        android:id="@+id/editHip"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Inseam (Inches)"
+        android:ems="10"
+        android:id="@+id/editInseam"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comments"
+        android:ems="10"
+        android:id="@+id/editComment"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:layout_marginBottom="43dp"/>
+
+</LinearLayout>
