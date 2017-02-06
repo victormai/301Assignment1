@@ -6,7 +6,14 @@ import java.io.Serializable;
  * Created by Victor on 2017-02-04.
  */
 
+/**
+ * Person class stores data with setters and getters, serializable
+ */
 public class Person implements Serializable{
+
+    /**
+     * Person data
+     */
     private String name;
     private String date;
     private double neckSize;
@@ -17,6 +24,9 @@ public class Person implements Serializable{
     private double inseamSize;
     private String inputComment;
 
+    /**
+     * Person setters
+     */
     public void setDate(String date) {
         this.date = date;
     }
@@ -28,42 +38,41 @@ public class Person implements Serializable{
     public void setInseamSize(Double inseamSize) {this.inseamSize = inseamSize;}
     public void setInputComment(String inputComment) {this.inputComment = inputComment;}
 
+    /**
+     * Person getters
+     */
     public String getName() {
         return name;
     }
-
     public String getDate() {
         return date;
     }
-
     public double getNeckSize() {
         return neckSize;
     }
-
     public double getBustSize() {
         return bustSize;
     }
-
     public double getChestSize() {
         return chestSize;
     }
-
     public double getWaistSize() {
         return waistSize;
     }
-
     public double getHipSize() {
         return hipSize;
     }
-
     public double getInseamSize() {
         return inseamSize;
     }
-
     public String getInputComment() {
         return inputComment;
     }
 
+    /**
+     * Create person element requires name element
+     * @param Name
+     */
     public Person(String Name){
         this.name = Name;
     }
